@@ -1,2 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using EjercicioClase1_KevinMendoza;
+
+SuperHeroe Heroe1 = new SuperHeroe();
+SuperHeroe Heroe2 = new SuperHeroe();
+SuperHeroe Heroe3 = new SuperHeroe();
+
+
