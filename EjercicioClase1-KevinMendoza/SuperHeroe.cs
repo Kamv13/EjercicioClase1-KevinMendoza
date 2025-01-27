@@ -4,16 +4,17 @@ namespace EjercicioClase1_KevinMendoza
 {
     public class SuperHeroe
     {
-        public string NombreH { get; set; }
-        public string IdentidadSecreta { get; set; }
-        public string Ciudad { get; set; }
-        public bool PuedeVolar { get; set; }
+        public string? NombreH { get; set; }
+        public string? IdentidadSecreta { get; set; }
+        public string? Ciudad { get; set; }
+        public bool? PuedeVolar { get; set; }
 
 
         public SuperPoder poder { get; set; }
+
+
         public SuperHeroe()
         {
-
             poder = new SuperPoder();
         }
 
